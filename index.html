@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS + JS Interactive Experience</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>✨ Bringing Web Pages to Life ✨</h1>
+
+  <!-- Part 1: Button with hover effect -->
+  <button class="fancy-btn">Hover Me</button>
+
+  <!-- Part 2: A box that will animate when clicked -->
+  <div id="animateBox"></div>
+  <button onclick="triggerAnimation()">Animate Box</button>
+
+  <!-- Part 3: Popup modal -->
+  <div id="modal" class="modal">
+    <p>Hello! I'm a sliding modal 👋</p>
+    <button onclick="closeModal()">Close</button>
+  </div>
+  <button onclick="openModal()">Open Modal</button>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
